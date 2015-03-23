@@ -5,11 +5,11 @@ $(document).ready(function(){
 	});
 	
 	// Data Source
-	var teamRow = [{team:"TSM",first:93.75,second:6.25,third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},{team:"CLG",first:31.25,second:53.13,third:12.50,fourth:3.13,fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},
+	var teamRow = [{team:"TSM",first:93.75,second:20.31,third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},{team:"CLG",first:31.25,second:53.13,third:12.50,fourth:3.13,fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},
     {team:"C9",first:9.38,second:18.75,third:42.19,fourth:15.63,fifth:14.06,sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},{team:"TIP",first:6.25,second:28.13,third:32.81,fourth:25.00,fifth:7.81,sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},
     {team:"T8",first:"",second:4.69,third:17.19,fourth:18.75,fifth:29.69,sixth:23.44,seventh:6.25,eighth:"",ninth:"",tenth:""},{team:"GV",first:"",second:3.13,third:20.31,fourth:17.19,fifth:29.69,sixth:23.44,seventh:6.25,eighth:"",ninth:"",tenth:""},
     {team:"TL",first:"",second:"",third:0.39,fourth:5.08,fifth:13.67,sixth:30.86,seventh:50.00,eighth:"",ninth:"",tenth:""},{team:"DIG",first:"",second:"",third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:68.75,ninth:31.25,tenth:""},
-    {team:"WFX",first:"",second:"",third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:68.75,ninth:31.25,tenth:""},{team:"MYM",first:"",second:"",third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:100.00}];
+    {team:"WFX",first:"",second:"",third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:68.75,ninth:31.25,tenth:""},{team:"CST",first:"",second:"",third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:100.00}];
 	
 	var numOfTeams = 10;
 	var i;
@@ -30,17 +30,20 @@ $(document).ready(function(){
 		$("tr").children("td").each(function () {
 			if (this.innerText != "") 
 			{
-				if(this.innerText >= 75) {
+				if(this.innerText >= 80) {
 					$(this).css("background-color", "#0099cc");
 				}
-				else if((this.innerText >= 50) && (this.innerText < 75)) {
-					$(this).css("background-color", "#6ac4e2");
+				else if((this.innerText >= 60) && (this.innerText < 80)) {
+					$(this).css("background-color", "#33add7");
 				}
-				else if((this.innerText >= 25) && (this.innerText < 50)) {
-					$(this).css("background-color", "#b9e3f1");
+				else if((this.innerText >= 40) && (this.innerText < 60)) {
+					$(this).css("background-color", "#65c1e1");
+				}
+				else if((this.innerText >= 20) && (this.innerText < 40)) {
+					$(this).css("background-color", "#98d5eb");
 				}
 				else if((this.innerText > 0)) {
-					$(this).css("background-color", "#d4eef7");
+					$(this).css("background-color", "#cae9f5");
 				}
 			}						
 		});				
