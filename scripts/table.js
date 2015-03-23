@@ -5,7 +5,7 @@ $(document).ready(function(){
 	});
 	
 	// Data Source
-	var teamRow = [{team:"TSM",first:93.75,second:20.31,third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},{team:"CLG",first:31.25,second:53.13,third:12.50,fourth:3.13,fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},
+	var teamRow = [{team:"TSM",first:93.75,second:6.25,third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},{team:"CLG",first:31.25,second:53.13,third:12.50,fourth:3.13,fifth:"",sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},
     {team:"C9",first:9.38,second:18.75,third:42.19,fourth:15.63,fifth:14.06,sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},{team:"TIP",first:6.25,second:28.13,third:32.81,fourth:25.00,fifth:7.81,sixth:"",seventh:"",eighth:"",ninth:"",tenth:""},
     {team:"T8",first:"",second:4.69,third:17.19,fourth:18.75,fifth:29.69,sixth:23.44,seventh:6.25,eighth:"",ninth:"",tenth:""},{team:"GV",first:"",second:3.13,third:20.31,fourth:17.19,fifth:29.69,sixth:23.44,seventh:6.25,eighth:"",ninth:"",tenth:""},
     {team:"TL",first:"",second:"",third:0.39,fourth:5.08,fifth:13.67,sixth:30.86,seventh:50.00,eighth:"",ninth:"",tenth:""},{team:"DIG",first:"",second:"",third:"",fourth:"",fifth:"",sixth:"",seventh:"",eighth:68.75,ninth:31.25,tenth:""},
@@ -84,7 +84,7 @@ $(document).ready(function(){
 		switch(teamNum) {
 			case 1: // TSM
 				teamName = "TEAM SOLOMID";
-				teamRecord = [{place:"1st",solo:64.06,two:20.13,three:7.81,four:1.56,five:""},{place:"2nd",solo:3.13,two:3.13,three:"",four:"",five:""}];
+				teamRecord = [{place:"1st",solo:64.06,two:20.31,three:7.81,four:1.56,five:""},{place:"2nd",solo:3.13,two:3.13,three:"",four:"",five:""}];
 				break;
 			case 2: // CLG
 				teamName = "COUNTER LOGIC GAMING";
