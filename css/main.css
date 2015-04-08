@@ -136,3 +136,25 @@ td {
 	display: inline-block;
 	cursor: pointer;
 }
+
+#table_slide {
+	height: auto;
+	width: auto;
+	margin-bottom: 0px;
+	display: block;
+	overflow-x: visible;
+}
+
+@media (max-width: 999px){
+	#popup {
+		top: 50px;
+		left: 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	#table_slide {
+		width: 100%;
+		margin-bottom: 20px;
+		overflow-x: scroll;
+	}
+}
